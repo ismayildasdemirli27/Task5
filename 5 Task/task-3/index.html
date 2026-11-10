@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3 — Dynamic Product Cards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="store-container">
+        <header class="store-header">
+            <h1>Product Store</h1>
+            <p class="subtitle">Browse available items and add them to your cart</p>
+        </header>
+
+        <div id="productContainer" class="products-grid"></div>
+
+        <section class="cart-section">
+            <h3>Shopping Cart</h3>
+            <div class="cart-summary">
+                <p id="cartCount">Cart: 0 items</p>
+                <p id="totalPrice">Total: $0</p>
+            </div>
+
+            <div class="cart-details">
+                <h4>Cart Items</h4>
+                <ul id="cartItemsList" class="cart-items-list">
+                    <li class="empty-cart-msg">Your cart is empty.</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

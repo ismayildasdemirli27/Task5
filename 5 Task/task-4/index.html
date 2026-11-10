@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4 — Interactive FAQ Accordion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="faq-container">
+        <h1>FAQ</h1>
+        <p class="subtitle">Frequently Asked Questions about JavaScript DOM</p>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                What is DOM?
+                <span class="icon">+</span>
+            </button>
+            <p class="faq-answer">
+                DOM stands for Document Object Model. It is a programming interface for web documents that represents the page as nodes and objects.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                What is querySelector()?
+                <span class="icon">+</span>
+            </button>
+            <p class="faq-answer">
+                It selects the first matching element in the document using standard CSS selectors.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                What is addEventListener()?
+                <span class="icon">+</span>
+            </button>
+            <p class="faq-answer">
+                It attaches an event handler function to an element without overwriting other existing event handlers on that element.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                What is Event Bubbling?
+                <span class="icon">+</span>
+            </button>
+            <p class="faq-answer">
+                Event bubbling is a type of event propagation where an event first triggers on the deepest target element and then bubbles up the DOM tree to its ancestors.
+            </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
